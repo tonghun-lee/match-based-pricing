@@ -1,0 +1,16 @@
+name: match-based-pricing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - pandas==2.2.2
+      - scipy==1.17.1
+      - scikit-learn==1.4.2
+      - networkx==3.2.1
+      - pyproj==3.6.1
+      - shapely==2.0.5
+      - geopandas==0.14.2
+      - matplotlib==3.9.2
